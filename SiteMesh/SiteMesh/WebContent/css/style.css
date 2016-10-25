@@ -1,0 +1,46 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+table, th, td {
+	border-collapse: separate;
+	border-spacing: 30px 50px;
+}
+
+#header {
+	background: #01C1D6;
+	padding: 10px;
+	color: white;
+}
+
+#content {
+	padding-bottom: 100px; /* Height of the footer element */
+}
+
+#footer {
+	text-align: left;
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	bottom: -85;
+	left: 0;
+	background: #ededed;
+}
+
+.well {
+	text-align: left;
+}
+
+.sidenav {
+	padding-top: 20px;
+	/* background-color: #f1f1f1; */
+	height: 100%;
+	text-align: left;
+}
